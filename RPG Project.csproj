@@ -233,14 +233,23 @@
     <Compile Include="Assets\Scripts\Player\PlayerStatus.cs" />
     <Compile Include="Assets\Scripts\charater Creation\charaterCreation.cs" />
     <Compile Include="Assets\Scripts\custom\CurSorManager.cs" />
+    <Compile Include="Assets\Scripts\custom\Inventory.cs" />
+    <Compile Include="Assets\Scripts\custom\InventoryDes.cs" />
+    <Compile Include="Assets\Scripts\custom\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\custom\InventoryItemGrid.cs" />
     <Compile Include="Assets\Scripts\custom\ObjectsInfo.cs" />
+    <Compile Include="Assets\Scripts\custom\Status.cs" />
     <Compile Include="Assets\Scripts\custom\Tags.cs" />
     <Compile Include="Assets\Scripts\npc\BarNPC.cs" />
     <Compile Include="Assets\Scripts\npc\NPC.cs" />
+    <Compile Include="Assets\Scripts\npc\ShowDrugNpc.cs" />
     <Compile Include="Assets\Scripts\start\ButtonContainer.cs" />
     <Compile Include="Assets\Scripts\start\MovieCamera.cs" />
     <Compile Include="Assets\Scripts\start\PressAnyKey.cs" />
+    <Compile Include="Assets\Scripts\ui\EquipmentItem.cs" />
+    <Compile Include="Assets\Scripts\ui\EquipmentUI.cs" />
     <Compile Include="Assets\Scripts\ui\FunctionBar.cs" />
+    <Compile Include="Assets\Scripts\ui\ShopDrug.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />

@@ -1,3 +1,25 @@
-1001,�p�~����,icon-potion1, Drug,50,0,50,60
-1002,�j�~����,icon-potion2, Drug,100,0,70,100
-1003,����,icon-potion3, Drug,0,100,60,80
+﻿1001,小瓶血藥,icon-potion1, Drug,50,0,50,60
+1002,大瓶血藥,icon-potion2, Drug,100,0,70,100
+1003,藍藥,icon-potion3, Drug,0,100,60,80
+2001,黃金甲,armor0-icon,Equip,0,50,0,Armor,Swordman,150,200
+2002,銅甲,armor1-icon,Equip,0,39,0,Armor,Swordman,100,150
+2003,神奇魔法衣,armor2-icon,Equip,0,50,0,Armor,Magician,150,200
+2004,破舊魔法衣,armor3-icon,Equip,0,20,0,Armor,Magician,60,100
+2005,銅鞋,icon-boot0,Equip,0,0,50,Shoe,Common,60,100
+2006,神速紅鞋,icon-boot0-01,Equip,0,0,70,Shoe,Common,120,150
+2007,帽子,icon-helm,Equip,0,50,0,Headgear,Swordman,100,120
+2008,神帽,icon-helm-01,Equip,0,70,0,Headgear,Swordman,120,200
+2009,神奇魔法帽,icon-helm-02,Equip,0,70,0,Headgear,Magician,120,200
+2010,普通魔法帽,icon-helm-03,Equip,0,50,0,Headgear,Magician,100,120
+2011,黃金戒指,icon-ring,Equip,0,50,0,Accessory,Common,50,70
+2012,銅綠戒指,icon-ring-01,Equip,0,30,0,Accessory,Common,30,50
+2013,盾牌,icon-shield,Equip,0,50,0,LeftHand,Common,50,70
+2014,神盾,icon-shield1,Equip,0,70,0,LeftHand,Common,70,100
+2015,皇族項鍊,icon-tailman,Equip,0,30,0,Accessory,Common,30,60
+2016,火柴棍,rod-icon,Equip,40,0,0,RightHand,Magician,40,80
+2017,金屬棍,rod-icon02,Equip,60,0,0,RightHand,Magician,60,120
+2018,神級魔法棒,rod-icon03,Equip,80,0,0,RightHand,Magician,80,200
+2019,木劍,sword0-icon,Equip,40,0,0,RightHand,Swordman,40,60
+2020,雙劍,sword0-icon00,Equip,60,0,0,RightHand,Swordman,60,100
+2021,黃金劍,sword1-icon,Equip,80,0,0,RightHand,Swordman,80,150
+2022,神級怪劍,sword2-icon,Equip,100,0,0,RightHand,Swordman,150,200

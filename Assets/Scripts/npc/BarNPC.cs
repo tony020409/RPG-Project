@@ -15,15 +15,19 @@ public class BarNPC : NPC {
 
     private PlayerStatus status;
 
+    private new AudioSource audio; 
+
     void Start()
     {
         status = GameObject.FindGameObjectWithTag(Tags.player).GetComponent<PlayerStatus>();
+        audio = GetComponent<AudioSource>();
     }
 
 
     void OnMouseOver()//當鼠標位於這個collider之上的時候,會在每一幀調用這個方法
     {
-        if (Input.GetMouseButtonDown(0)) {//當點擊了老爺爺
+        if (Input.GetMouseButtonDown(0) && UICamera.hoveredObject.layer != LayerMask.NameToLayer("UILayer")) {//當點擊了老爺爺
+            audio.Play();
             if (isInTask)
             {
                 ShowTaskProgress();

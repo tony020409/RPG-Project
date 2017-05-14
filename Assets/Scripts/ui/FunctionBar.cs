@@ -5,13 +5,13 @@ using UnityEngine;
 public class FunctionBar : MonoBehaviour {
 
     public void OnStatusButtonClick(){
-    
+        Status._instance.TransformState();
     }
     public void OnBagButtonClick() {
-
+        Inventory._instance.TransformState();
     }
     public void OnEquipButton() {
-
+        EquipmentUI._instance.TransformState();
     }
     public void OnSkillButtonClick() {
 

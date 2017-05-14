@@ -265,7 +265,8 @@ public class UIDragDropItem : MonoBehaviour
 
 	protected virtual void OnDragDropStart ()
 	{
-		if (!draggedItems.Contains(this))
+
+        if (!draggedItems.Contains(this))
 			draggedItems.Add(this);
 
 		// Automatically disable the scroll view
